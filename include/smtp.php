@@ -10,18 +10,18 @@ class message{
         $mail = new PHPMailer();
         //SMTP Settings
         $mail->isSMTP();
-        $mail->Host = "#"; // Change Email Host
+        $mail->Host = "mail.greenmonument.online"; // Change Email Host
         $mail->SMTPAuth = true;
-        $mail->Username = "#"; // Change Email Address
-        $mail->Password = '#'; // Change Email Password
-        $mail->Port = 465; //587
+        $mail->Username = "contact@greenmonument.online"; // Change Email Address
+        $mail->Password = '@SECgreenmonument1'; // Change Email Password
+        $mail->Port = 587; //587
         $mail->SMTPSecure = "ssl"; //tls
 
         //Email Settings
         $mail->isHTML(true);
-        $mail->setFrom('support@dirtyscripts.shop','Ofofonobs Developer'); // Change
+        $mail->setFrom('contact@greenmonument.online','Green Monument Bank'); // Change
         $mail->addAddress($email);
-        $mail->AddReplyTo("support@dirtyscripts.shop", "Ofofonobs Developer"); // Change
+        $mail->AddReplyTo("contact@greenmonument.online", "Green Monument Bank"); // Change
         $mail->Subject = $subject;
         $mail->MsgHTML($message);
         $mail->Send();
