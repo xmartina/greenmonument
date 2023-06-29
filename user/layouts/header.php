@@ -222,8 +222,8 @@ if ($row['acct_currency'] === 'USD') {
         <header class="header navbar navbar-expand-sm">
 
             <ul class="navbar-nav theme-brand flex-row  text-center">
-                <li class="header-logo rounded bg-white w-75">
-                    <img src="/assets/images/logo/site_logo.png" alt="" class="top-img w-100 p-3">
+                <li class="header-logo rounded bg-white w-75 d-flex align-items-center">
+                    <img src="/assets/images/logo/site_logo.png" alt="" class="top-img w-100 p-1">
                 </li>
                 <li class="nav-item toggle-sidebar">
                     <a href="javascript:void(0);" class="sidebarCollapse" data-placement="bottom"><svg
