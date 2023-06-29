@@ -278,6 +278,9 @@ s0.parentNode.insertBefore(s1,s0);
         });
         return false;
     });
+
+    $(".sidebarCollapse").click(function(){
+        $(".header-logo").toggle(500);
 </script>
 
 
