@@ -217,10 +217,14 @@ if ($row['acct_currency'] === 'USD') {
     <!--  END LOADER -->
 
     <!--  BEGIN NAVBAR  -->
+
     <div class="header-container fixed-top">
         <header class="header navbar navbar-expand-sm">
 
             <ul class="navbar-nav theme-brand flex-row  text-center">
+                <li class="header-logo rounded bg-white">
+                    <img src="/assets/images/logo/site_logo.png" alt="" class="top-img">
+                </li>
                 <li class="nav-item toggle-sidebar">
                     <a href="javascript:void(0);" class="sidebarCollapse" data-placement="bottom"><svg
                             xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
